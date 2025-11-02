@@ -18,6 +18,13 @@ namespace helloworld.Controllers
             return View();
         }
 
+        public IActionResult HelloWorld()
+        {
+            return View();
+        }
+
+
+
         public IActionResult Privacy()
         {
             return View();
